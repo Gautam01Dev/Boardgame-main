@@ -117,13 +117,11 @@
 	</build>
 
 
- <distributionManagement>
-<repositories>
-  <repository>
-    <id>maven-releases</id>
-    <url>http://54.157.147.17:8081/repository/maven-releases/</url>
-  </repository>
-</repositories>
+<distributionManagement>
+ <repository>
+ <id>maven-releases</id>
+ <url>http://54.157.147.17:8081/repository/maven-releases/
+ </repository>
  <snapshotRepository>
  <id>maven-snapshots</id>
  <url>http://54.157.147.17:8081/repository/maven-snapshots/
